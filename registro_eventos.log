@@ -1,0 +1,26 @@
+[2026-11-21 17:15:19] [INFO] Sistema Software FJ iniciado.
+[2026-11-21 17:15:19] [INFO] Cliente registrado: Cliente C1 - Nombre: Ana Pérez - Correo: ana@gmail.com
+[2026-11-21 17:15:19] [AUDITORIA] Intento de registro de cliente 'C1'.
+[2026-11-21 17:15:19] [INFO] Cliente registrado: Cliente C2 - Nombre: Luis Torres - Correo: luis@empresa.com
+[2026-11-21 17:15:19] [AUDITORIA] Intento de registro de cliente 'C2'.
+[2026-11-21 17:15:19] [ERROR] Cliente C3: Correo inválido: 'pedro_sin_arroba.com'. Debe contener '@'.
+[2026-11-21 17:15:19] [AUDITORIA] Intento de registro de cliente 'C3'.
+[2026-11-21 17:15:19] [ERROR] Cliente C4: El nombre del cliente debe tener al menos 2 letras.
+[2026-11-21 17:15:19] [AUDITORIA] Intento de registro de cliente 'C4'.
+[2026-11-21 17:15:19] [INFO] Servicio agregado: Sala [S1] Sala Principal (Cap: 10) - $50000.0/h - Disponible
+[2026-11-21 17:15:19] [AUDITORIA] Intento de registro de servicio.
+[2026-11-21 17:15:19] [INFO] Servicio agregado: Equipo [S2] Portátil HP (Laptop) - $40000.0/día - Disponible
+[2026-11-21 17:15:19] [AUDITORIA] Intento de registro de servicio.
+[2026-11-21 17:15:19] [INFO] Servicio agregado: Asesoría [S3] Asesoría de Software (Programación) - $90000.0/h - Disponible
+[2026-11-21 17:15:19] [AUDITORIA] Intento de registro de servicio.
+[2026-11-21 17:15:19] [ERROR] Crear servicio S4: El precio base debe ser mayor que cero.
+[2026-11-21 17:15:19] [INFO] Reserva confirmada: Reserva [R1] | Cliente: Ana Pérez | Servicio: Sala Principal | Cantidad: 3 | Estado: CONFIRMADA | Total: $178500.0
+[2026-11-21 17:15:19] [AUDITORIA] Intento de reserva 'R1'.
+[2026-11-21 17:15:19] [ERROR] Reserva R2: El servicio 'Sala Principal' no está disponible.
+[2026-11-21 17:15:19] [AUDITORIA] Intento de reserva 'R2'.
+[2026-11-21 17:15:19] [ERROR] Reserva R3: Cliente con código 'C3' no encontrado.
+[2026-11-21 17:15:19] [AUDITORIA] Intento de reserva 'R3'.
+[2026-11-21 17:15:19] [INFO] Reserva confirmada: Reserva [R4] | Cliente: Luis Torres | Servicio: Asesoría de Software | Cantidad: 4 | Estado: CONFIRMADA | Total: $385560.0
+[2026-11-21 17:15:19] [AUDITORIA] Intento de reserva 'R4'.
+[2026-11-21 17:15:19] [INFO] Reserva cancelada: Reserva [R4] | Cliente: Luis Torres | Servicio: Asesoría de Software | Cantidad: 4 | Estado: CANCELADA | Total: $385560.0
+[2026-11-21 17:15:19] [AUDITORIA] Intento de cancelación 'R4'.
